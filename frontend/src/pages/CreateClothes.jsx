@@ -113,8 +113,8 @@ const CreateClothes = () => {
         <div>
           <label className="block mb-1">Description</label>
           <textarea
-            name="desc"
-            value={data.desc}
+            name="des"
+            value={data.des}
             onChange={handleChange}
             className="border w-full px-3 py-2 rounded-lg"
             rows="4"
